@@ -817,25 +817,11 @@ Wire Wire Line
 	6650 3800 6650 4550
 Wire Wire Line
 	6750 3800 6750 4650
-Text HLabel 8050 3950 2    50   BiDi ~ 0
-iB0
-Text HLabel 8050 4050 2    50   BiDi ~ 0
-iB1
-Text HLabel 8050 4150 2    50   BiDi ~ 0
-iB2
-Text HLabel 8050 4250 2    50   BiDi ~ 0
-iB3
-Text HLabel 8050 4350 2    50   BiDi ~ 0
-iB4
-Text HLabel 8050 4550 2    50   BiDi ~ 0
-iB6
-Text HLabel 8050 4650 2    50   BiDi ~ 0
-iB7
 $Comp
-L 74xx:74LS373 U45
+L 74xx:74LS373 U234
 U 1 1 5E589EDB
 P 4850 2050
-F 0 "U45" H 4850 3031 50  0000 C CNN
+F 0 "U234" H 4850 3031 50  0000 C CNN
 F 1 "74LS373" H 4850 2940 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 4850 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 4850 2050 50  0001 C CNN
@@ -966,21 +952,21 @@ Connection ~ 3250 3950
 Wire Wire Line
 	3250 3950 6050 3950
 $Comp
-L Device:R_Network08 RN17
+L Device:R_Network08 B37
 U 1 1 5E61675D
 P 9050 3400
-F 0 "RN17" H 9438 3446 50  0000 L CNN
-F 1 "R_Network08" H 9438 3355 50  0000 L CNN
+F 0 "B37" H 9438 3446 50  0000 L CNN
+F 1 "22K" H 9438 3355 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 9525 3400 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9050 3400 50  0001 C CNN
 	1    9050 3400
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D107
+L Device:LED_Small_ALT L271
 U 1 1 5E616763
 P 6900 2500
-F 0 "D107" V 6900 2432 50  0000 R CNN
+F 0 "L271" V 6900 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 6855 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 6900 2500 50  0001 C CNN
 F 3 "~" V 6900 2500 50  0001 C CNN
@@ -988,10 +974,10 @@ F 3 "~" V 6900 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D109
+L Device:LED_Small_ALT L270
 U 1 1 5E616769
 P 7250 2500
-F 0 "D109" V 7250 2432 50  0000 R CNN
+F 0 "L270" V 7250 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 7205 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7250 2500 50  0001 C CNN
 F 3 "~" V 7250 2500 50  0001 C CNN
@@ -999,10 +985,10 @@ F 3 "~" V 7250 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D111
+L Device:LED_Small_ALT L269
 U 1 1 5E61676F
 P 7600 2500
-F 0 "D111" V 7600 2432 50  0000 R CNN
+F 0 "L269" V 7600 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 7555 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7600 2500 50  0001 C CNN
 F 3 "~" V 7600 2500 50  0001 C CNN
@@ -1010,10 +996,10 @@ F 3 "~" V 7600 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D114
+L Device:LED_Small_ALT L268
 U 1 1 5E616775
 P 7950 2500
-F 0 "D114" V 7950 2432 50  0000 R CNN
+F 0 "L268" V 7950 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 7905 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7950 2500 50  0001 C CNN
 F 3 "~" V 7950 2500 50  0001 C CNN
@@ -1021,10 +1007,10 @@ F 3 "~" V 7950 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D117
+L Device:LED_Small_ALT L267
 U 1 1 5E61677B
 P 8300 2500
-F 0 "D117" V 8300 2432 50  0000 R CNN
+F 0 "L267" V 8300 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8255 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8300 2500 50  0001 C CNN
 F 3 "~" V 8300 2500 50  0001 C CNN
@@ -1032,10 +1018,10 @@ F 3 "~" V 8300 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D120
+L Device:LED_Small_ALT L266
 U 1 1 5E616781
 P 8650 2500
-F 0 "D120" V 8650 2432 50  0000 R CNN
+F 0 "L266" V 8650 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8605 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8650 2500 50  0001 C CNN
 F 3 "~" V 8650 2500 50  0001 C CNN
@@ -1043,10 +1029,10 @@ F 3 "~" V 8650 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D123
+L Device:LED_Small_ALT L265
 U 1 1 5E616787
 P 9000 2500
-F 0 "D123" V 9000 2432 50  0000 R CNN
+F 0 "L265" V 9000 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8955 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 9000 2500 50  0001 C CNN
 F 3 "~" V 9000 2500 50  0001 C CNN
@@ -1054,10 +1040,10 @@ F 3 "~" V 9000 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D125
+L Device:LED_Small_ALT L264
 U 1 1 5E61678D
 P 9350 2500
-F 0 "D125" V 9350 2432 50  0000 R CNN
+F 0 "L264" V 9350 2432 50  0000 R CNN
 F 1 "LED_Small_ALT" V 9305 2432 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 9350 2500 50  0001 C CNN
 F 3 "~" V 9350 2500 50  0001 C CNN
@@ -1120,8 +1106,6 @@ Wire Wire Line
 	5350 1650 7250 1650
 Wire Wire Line
 	5350 1550 6900 1550
-Text HLabel 8050 4450 2    50   BiDi ~ 0
-iB5
 Wire Wire Line
 	6900 2400 6900 1550
 Connection ~ 6900 1550
@@ -1162,22 +1146,6 @@ Wire Wire Line
 Connection ~ 9350 2250
 Wire Wire Line
 	9350 2250 10000 2250
-Text HLabel 10000 1550 2    50   Output ~ 0
-OP0
-Text HLabel 10000 1650 2    50   Output ~ 0
-OP1
-Text HLabel 10000 1750 2    50   Output ~ 0
-OP2
-Text HLabel 10000 1850 2    50   Output ~ 0
-OP3
-Text HLabel 10000 1950 2    50   Output ~ 0
-OP4
-Text HLabel 10000 2050 2    50   Output ~ 0
-OP5
-Text HLabel 10000 2150 2    50   Output ~ 0
-OP6
-Text HLabel 10000 2250 2    50   Output ~ 0
-OP7
 $Comp
 L power:VCC #PWR0134
 U 1 1 5E7A14D5
@@ -2706,4 +2674,36 @@ F 3 "" H 13250 8800 50  0001 C CNN
 	1    13250 8800
 	1    0    0    -1  
 $EndComp
+Text GLabel 10000 1550 2    50   Output ~ 0
+OP0
+Text GLabel 10000 1650 2    50   Output ~ 0
+OP1
+Text GLabel 10000 1750 2    50   Output ~ 0
+OP2
+Text GLabel 10000 1850 2    50   Output ~ 0
+OP3
+Text GLabel 10000 1950 2    50   Output ~ 0
+OP4
+Text GLabel 10000 2050 2    50   Output ~ 0
+OP5
+Text GLabel 10000 2150 2    50   Output ~ 0
+OP6
+Text GLabel 10000 2250 2    50   Output ~ 0
+OP7
+Text GLabel 8050 3950 2    50   BiDi ~ 0
+iB0
+Text GLabel 8050 4050 2    50   BiDi ~ 0
+iB1
+Text GLabel 8050 4150 2    50   BiDi ~ 0
+iB2
+Text GLabel 8050 4250 2    50   BiDi ~ 0
+iB3
+Text GLabel 8050 4350 2    50   BiDi ~ 0
+iB4
+Text GLabel 8050 4450 2    50   BiDi ~ 0
+iB5
+Text GLabel 8050 4550 2    50   BiDi ~ 0
+iB6
+Text GLabel 8050 4650 2    50   BiDi ~ 0
+iB7
 $EndSCHEMATC
