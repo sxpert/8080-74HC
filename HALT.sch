@@ -1,0 +1,246 @@
+EESchema Schematic File Version 4
+LIBS:8080-HC-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC00 U?
+U 3 1 6304FCAE
+P 2400 1850
+AR Path="/612F25B0/6304FCAE" Ref="U?"  Part="3" 
+AR Path="/6304B7FE/6304FCAE" Ref="U3"  Part="3" 
+F 0 "U3" H 2400 2175 50  0000 C CNN
+F 1 "74HC00" H 2400 2084 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2400 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2400 1850 50  0001 C CNN
+	3    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 4 1 6304FCB4
+P 4000 1950
+AR Path="/612F25B0/6304FCB4" Ref="U?"  Part="4" 
+AR Path="/6304B7FE/6304FCB4" Ref="U3"  Part="4" 
+F 0 "U3" H 4000 2275 50  0000 C CNN
+F 1 "74HC00" H 4000 2184 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4000 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4000 1950 50  0001 C CNN
+	4    4000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS03 U?
+U 4 1 6304FCBA
+P 7200 3000
+AR Path="/612F25B0/6304FCBA" Ref="U?"  Part="4" 
+AR Path="/6304B7FE/6304FCBA" Ref="U84"  Part="4" 
+F 0 "U84" H 7200 3325 50  0000 C CNN
+F 1 "74HC03" H 7200 3234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7200 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 7200 3000 50  0001 C CNN
+	4    7200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 6 1 6304FCC0
+P 5700 1950
+AR Path="/612F25B0/6304FCC0" Ref="U?"  Part="6" 
+AR Path="/6304B7FE/6304FCC0" Ref="U49"  Part="6" 
+F 0 "U49" H 5700 2267 50  0000 C CNN
+F 1 "74HC04" H 5700 2176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 1950 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5700 1950 50  0001 C CNN
+	6    5700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS126 U?
+U 3 1 6304FCE4
+P 5700 2900
+AR Path="/612F25B0/6304FCE4" Ref="U?"  Part="3" 
+AR Path="/6304B7FE/6304FCE4" Ref="U88"  Part="3" 
+F 0 "U88" H 6000 2850 50  0000 C CNN
+F 1 "74HC126" H 6100 2950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5700 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS126" H 5700 2900 50  0001 C CNN
+	3    5700 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 1 1 6306A85F
+P 4000 2900
+AR Path="/612F25B0/6306A85F" Ref="U?"  Part="4" 
+AR Path="/6304B7FE/6306A85F" Ref="U91"  Part="1" 
+F 0 "U91" H 4000 3225 50  0000 C CNN
+F 1 "74HC00" H 4000 3134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4000 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 5 1 6306BE70
+P 4000 5750
+AR Path="/612F25B0/6306BE70" Ref="U?"  Part="4" 
+AR Path="/6304B7FE/6306BE70" Ref="U244"  Part="5" 
+F 0 "U244" H 4230 5796 50  0000 L CNN
+F 1 "74HC00" H 4230 5705 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4000 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4000 5750 50  0001 C CNN
+	5    4000 5750
+	1    0    0    -1  
+$EndComp
+Text HLabel 1750 1750 0    50   Input ~ 0
+HALT
+Wire Wire Line
+	1750 1750 2100 1750
+Text HLabel 1750 1950 0    50   Input ~ 0
+T2
+Wire Wire Line
+	1750 1950 2100 1950
+Wire Wire Line
+	2700 1850 3700 1850
+Wire Wire Line
+	3700 3000 1750 3000
+Text HLabel 1750 3000 0    50   Input ~ 0
+HLTclr
+Text HLabel 4500 2900 2    50   Output ~ 0
+PCckdE2
+Wire Wire Line
+	4300 1950 4400 1950
+Wire Wire Line
+	5400 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 1950
+Connection ~ 5200 1950
+Wire Wire Line
+	5200 1950 5400 1950
+Wire Wire Line
+	4500 2900 4400 2900
+Wire Wire Line
+	4400 2900 4400 2600
+Connection ~ 4400 2900
+Wire Wire Line
+	4400 2900 4300 2900
+Wire Wire Line
+	3700 2800 3600 2800
+Wire Wire Line
+	3600 2800 3600 2600
+Wire Wire Line
+	3700 2050 3600 2050
+Wire Wire Line
+	3600 2050 3600 2250
+Wire Wire Line
+	4400 1950 4400 2250
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 5200 1950
+Wire Wire Line
+	3600 2250 4400 2600
+Wire Wire Line
+	3600 2600 4400 2250
+Wire Wire Line
+	6000 2900 6900 2900
+$Comp
+L power:VCC #PWR0184
+U 1 1 630DC22E
+P 5700 2650
+F 0 "#PWR0184" H 5700 2500 50  0001 C CNN
+F 1 "VCC" H 5717 2823 50  0000 C CNN
+F 2 "" H 5700 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 3100 0    50   Input ~ 0
+T4
+Wire Wire Line
+	6700 3100 6900 3100
+Text HLabel 7700 3000 2    50   Output ~ 0
+MCLR
+Wire Wire Line
+	7700 3000 7500 3000
+Text HLabel 6250 1950 2    50   Output ~ 0
+HLTA
+Wire Wire Line
+	6000 1950 6100 1950
+Wire Wire Line
+	6100 1950 6100 1800
+Connection ~ 6100 1950
+Wire Wire Line
+	6100 1950 6250 1950
+$Comp
+L Device:LED_Small_ALT D152
+U 1 1 630E41A2
+P 6100 1700
+F 0 "D152" V 6146 1632 50  0000 R CNN
+F 1 "LED_Small_ALT" V 6055 1632 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 6100 1700 50  0001 C CNN
+F 3 "~" V 6100 1700 50  0001 C CNN
+	1    6100 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 630E5590
+P 6100 1450
+F 0 "R44" H 6170 1496 50  0000 L CNN
+F 1 "R" H 6170 1405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 1450 50  0001 C CNN
+F 3 "~" H 6100 1450 50  0001 C CNN
+	1    6100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0185
+U 1 1 630E67E3
+P 6100 1300
+F 0 "#PWR0185" H 6100 1150 50  0001 C CNN
+F 1 "VCC" H 6117 1473 50  0000 C CNN
+F 2 "" H 6100 1300 50  0001 C CNN
+F 3 "" H 6100 1300 50  0001 C CNN
+	1    6100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0186
+U 1 1 630E6DE7
+P 4000 5100
+F 0 "#PWR0186" H 4000 4950 50  0001 C CNN
+F 1 "VCC" H 4017 5273 50  0000 C CNN
+F 2 "" H 4000 5100 50  0001 C CNN
+F 3 "" H 4000 5100 50  0001 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5100 4000 5250
+$Comp
+L power:GND #PWR0187
+U 1 1 630FA3E1
+P 4000 6350
+F 0 "#PWR0187" H 4000 6100 50  0001 C CNN
+F 1 "GND" H 4005 6177 50  0000 C CNN
+F 2 "" H 4000 6350 50  0001 C CNN
+F 3 "" H 4000 6350 50  0001 C CNN
+	1    4000 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6250 4000 6350
+$EndSCHEMATC
