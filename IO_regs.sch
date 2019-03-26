@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74HC245 U42
+L 74xx:74HC245 U231
 U 1 1 5E3C8C23
 P 2650 4450
-F 0 "U42" H 2650 5431 50  0000 C CNN
+F 0 "U231" H 2650 5431 50  0000 C CNN
 F 1 "74HC245" H 2650 5340 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 2650 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 2650 4450 50  0001 C CNN
@@ -26,22 +26,22 @@ F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 2650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RN11
+L Device:R_Network08 B41
 U 1 1 5E3C94AA
 P 1650 3650
-F 0 "RN11" H 2038 3696 50  0000 L CNN
-F 1 "R_Network08" H 2038 3605 50  0000 L CNN
+F 0 "B41" H 2038 3696 50  0000 L CNN
+F 1 "1K" H 2038 3605 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 2125 3650 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1650 3650 50  0001 C CNN
 	1    1650 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08 RN13
+L Device:R_Network08 B35
 U 1 1 5E3CC495
 P 5100 5200
-F 0 "RN13" H 5488 5246 50  0000 L CNN
-F 1 "R_Network08" H 5488 5155 50  0000 L CNN
+F 0 "B35" H 5488 5246 50  0000 L CNN
+F 1 "2.2K" H 5488 5155 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 5575 5200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5100 5200 50  0001 C CNN
 	1    5100 5200
@@ -242,10 +242,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3800 820
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U46
+L 74xx:74HC04 U232
 U 7 1 5E3F7301
 P 12750 7000
-F 0 "U46" V 13117 7000 50  0000 C CNN
+F 0 "U232" V 13117 7000 50  0000 C CNN
 F 1 "74HC04" V 13026 7000 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 7000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 7000 50  0001 C CNN
@@ -398,22 +398,6 @@ F 3 "" H 1250 3450 50  0001 C CNN
 	1    1250 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1050 3950 0    50   BiDi ~ 0
-io_D0
-Text HLabel 1050 4050 0    50   BiDi ~ 0
-io_D1
-Text HLabel 1050 4150 0    50   BiDi ~ 0
-io_D2
-Text HLabel 1050 4250 0    50   BiDi ~ 0
-io_D3
-Text HLabel 1050 4350 0    50   BiDi ~ 0
-io_D4
-Text HLabel 1050 4450 0    50   BiDi ~ 0
-io_D5
-Text HLabel 1050 4550 0    50   BiDi ~ 0
-io_D6
-Text HLabel 1050 4650 0    50   BiDi ~ 0
-io_D7
 Wire Wire Line
 	1050 3950 1250 3950
 Wire Wire Line
@@ -442,21 +426,21 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 77
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Network08 RN18
+L Device:R_Network08 B36
 U 1 1 5E45C258
 P 9900 5200
-F 0 "RN18" H 10288 5246 50  0000 L CNN
-F 1 "R_Network08" H 10288 5155 50  0000 L CNN
+F 0 "B36" H 10288 5246 50  0000 L CNN
+F 1 "2.2K" H 10288 5155 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 10375 5200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9900 5200 50  0001 C CNN
 	1    9900 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D112
+L Device:LED_Small_ALT L263
 U 1 1 5E45C25E
 P 7750 6100
-F 0 "D112" V 7750 6032 50  0000 R CNN
+F 0 "L263" V 7750 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 7705 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7750 6100 50  0001 C CNN
 F 3 "~" V 7750 6100 50  0001 C CNN
@@ -464,10 +448,10 @@ F 3 "~" V 7750 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D115
+L Device:LED_Small_ALT L262
 U 1 1 5E45C264
 P 8100 6100
-F 0 "D115" V 8100 6032 50  0000 R CNN
+F 0 "L262" V 8100 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8055 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8100 6100 50  0001 C CNN
 F 3 "~" V 8100 6100 50  0001 C CNN
@@ -475,10 +459,10 @@ F 3 "~" V 8100 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D118
+L Device:LED_Small_ALT L261
 U 1 1 5E45C26A
 P 8450 6100
-F 0 "D118" V 8450 6032 50  0000 R CNN
+F 0 "L261" V 8450 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8405 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8450 6100 50  0001 C CNN
 F 3 "~" V 8450 6100 50  0001 C CNN
@@ -486,10 +470,10 @@ F 3 "~" V 8450 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D121
+L Device:LED_Small_ALT L260
 U 1 1 5E45C270
 P 8800 6100
-F 0 "D121" V 8800 6032 50  0000 R CNN
+F 0 "L260" V 8800 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 8755 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8800 6100 50  0001 C CNN
 F 3 "~" V 8800 6100 50  0001 C CNN
@@ -497,10 +481,10 @@ F 3 "~" V 8800 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D124
+L Device:LED_Small_ALT L259
 U 1 1 5E45C276
 P 9150 6100
-F 0 "D124" V 9150 6032 50  0000 R CNN
+F 0 "L259" V 9150 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 9105 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 9150 6100 50  0001 C CNN
 F 3 "~" V 9150 6100 50  0001 C CNN
@@ -508,10 +492,10 @@ F 3 "~" V 9150 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D126
+L Device:LED_Small_ALT L258
 U 1 1 5E45C27C
 P 9500 6100
-F 0 "D126" V 9500 6032 50  0000 R CNN
+F 0 "L258" V 9500 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 9455 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 9500 6100 50  0001 C CNN
 F 3 "~" V 9500 6100 50  0001 C CNN
@@ -519,10 +503,10 @@ F 3 "~" V 9500 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D127
+L Device:LED_Small_ALT L257
 U 1 1 5E45C282
 P 9850 6100
-F 0 "D127" V 9850 6032 50  0000 R CNN
+F 0 "L257" V 9850 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 9805 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 9850 6100 50  0001 C CNN
 F 3 "~" V 9850 6100 50  0001 C CNN
@@ -530,10 +514,10 @@ F 3 "~" V 9850 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D128
+L Device:LED_Small_ALT L256
 U 1 1 5E45C288
 P 10200 6100
-F 0 "D128" V 10200 6032 50  0000 R CNN
+F 0 "L256" V 10200 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 10155 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 10200 6100 50  0001 C CNN
 F 3 "~" V 10200 6100 50  0001 C CNN
@@ -581,91 +565,36 @@ Wire Wire Line
 Wire Wire Line
 	10200 5400 10200 6000
 $Comp
-L 74xx:74HC04 U48
-U 1 1 5E45C2A2
+L 74xx:74HC04 U233
+U 6 1 5E45C2A2
 P 7350 6200
-F 0 "U48" H 7350 6517 50  0000 C CNN
+F 0 "U233" H 7350 6517 50  0000 C CNN
 F 1 "74HC04" H 7350 6426 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 7350 6200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7350 6200 50  0001 C CNN
-	1    7350 6200
+	6    7350 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U48
-U 2 1 5E45C2A8
-P 7600 6600
-F 0 "U48" H 7600 6917 50  0000 C CNN
-F 1 "74HC04" H 7600 6826 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7600 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7600 6600 50  0001 C CNN
-	2    7600 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U46
-U 3 1 5E45C2AE
-P 7850 7000
-F 0 "U46" H 7850 7317 50  0000 C CNN
-F 1 "74HC04" H 7850 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7850 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7850 7000 50  0001 C CNN
-	3    7850 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U46
-U 4 1 5E45C2B4
-P 8100 7400
-F 0 "U46" H 8100 7717 50  0000 C CNN
-F 1 "74HC04" H 8100 7626 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8100 7400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8100 7400 50  0001 C CNN
-	4    8100 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U46
-U 5 1 5E45C2BA
-P 8350 7800
-F 0 "U46" H 8350 8117 50  0000 C CNN
-F 1 "74HC04" H 8350 8026 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8350 7800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8350 7800 50  0001 C CNN
-	5    8350 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U46
-U 6 1 5E45C2C0
-P 8600 8200
-F 0 "U46" H 8600 8517 50  0000 C CNN
-F 1 "74HC04" H 8600 8426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8600 8200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8600 8200 50  0001 C CNN
-	6    8600 8200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U49
-U 1 1 5E45C2C6
+L 74xx:74HC04 U232
+U 6 1 5E45C2C6
 P 8850 8600
-F 0 "U49" H 8850 8917 50  0000 C CNN
+F 0 "U232" H 8850 8917 50  0000 C CNN
 F 1 "74HC04" H 8850 8826 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 8850 8600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8850 8600 50  0001 C CNN
-	1    8850 8600
+	6    8850 8600
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U49
-U 2 1 5E45C2CC
+L 74xx:74HC04 U232
+U 1 1 5E45C2CC
 P 9100 9000
-F 0 "U49" H 9100 9317 50  0000 C CNN
+F 0 "U232" H 9100 9317 50  0000 C CNN
 F 1 "74HC04" H 9100 9226 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 9100 9000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9100 9000 50  0001 C CNN
-	2    9100 9000
+	1    9100 9000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -732,10 +661,10 @@ Connection ~ 6750 4650
 Wire Wire Line
 	6750 4650 8050 4650
 $Comp
-L 74xx:74HC04 U48
+L 74xx:74HC04 U233
 U 7 1 5E4DBFB6
 P 12750 8400
-F 0 "U48" V 13117 8400 50  0000 C CNN
+F 0 "U233" V 13117 8400 50  0000 C CNN
 F 1 "74HC04" V 13026 8400 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 8400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 8400 50  0001 C CNN
@@ -778,11 +707,11 @@ Wire Wire Line
 	6050 3950 8050 3950
 Connection ~ 6050 3950
 $Comp
-L Device:R_Network08 RN15
+L Device:R_Network08 B5
 U 1 1 5E53A1B3
 P 6450 3600
-F 0 "RN15" H 6838 3646 50  0000 L CNN
-F 1 "R_Network08" H 6838 3555 50  0000 L CNN
+F 0 "B5" H 6838 3646 50  0000 L CNN
+F 1 "1K" H 6838 3555 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 6925 3600 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6450 3600 50  0001 C CNN
 	1    6450 3600
@@ -856,10 +785,6 @@ Wire Wire Line
 	2150 4850 1050 4850
 Wire Wire Line
 	2150 4950 1050 4950
-Text HLabel 1050 4950 0    50   Input ~ 0
-DataG
-Text HLabel 1050 4850 0    50   Input ~ 0
-DataDIR
 $Comp
 L power:GND #PWR0132
 U 1 1 5E5A82C4
@@ -956,7 +881,7 @@ L Device:R_Network08 B37
 U 1 1 5E61675D
 P 9050 3400
 F 0 "B37" H 9438 3446 50  0000 L CNN
-F 1 "22K" H 9438 3355 50  0000 L CNN
+F 1 "2.2K" H 9438 3355 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 9525 3400 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9050 3400 50  0001 C CNN
 	1    9050 3400
@@ -2706,4 +2631,79 @@ Text GLabel 8050 4550 2    50   BiDi ~ 0
 iB6
 Text GLabel 8050 4650 2    50   BiDi ~ 0
 iB7
+Text GLabel 1050 3950 0    50   BiDi ~ 0
+io_D0
+Text GLabel 1050 4050 0    50   BiDi ~ 0
+io_D1
+Text GLabel 1050 4150 0    50   BiDi ~ 0
+io_D2
+Text GLabel 1050 4250 0    50   BiDi ~ 0
+io_D3
+Text GLabel 1050 4350 0    50   BiDi ~ 0
+io_D4
+Text GLabel 1050 4450 0    50   BiDi ~ 0
+io_D5
+Text GLabel 1050 4550 0    50   BiDi ~ 0
+io_D6
+Text GLabel 1050 4650 0    50   BiDi ~ 0
+io_D7
+Text GLabel 1050 4850 0    50   Input ~ 0
+DataDIR
+Text GLabel 1050 4950 0    50   Input ~ 0
+DataG
+$Comp
+L 74xx:74HC04 U232
+U 2 1 5E45C2C0
+P 8600 8200
+F 0 "U232" H 8600 8517 50  0000 C CNN
+F 1 "74HC04" H 8600 8426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8600 8200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8600 8200 50  0001 C CNN
+	2    8600 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U232
+U 5 1 5E45C2BA
+P 8350 7800
+F 0 "U232" H 8350 8117 50  0000 C CNN
+F 1 "74HC04" H 8350 8026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8350 7800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8350 7800 50  0001 C CNN
+	5    8350 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U232
+U 3 1 5E45C2B4
+P 8100 7400
+F 0 "U232" H 8100 7717 50  0000 C CNN
+F 1 "74HC04" H 8100 7626 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8100 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8100 7400 50  0001 C CNN
+	3    8100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U232
+U 4 1 5E45C2AE
+P 7850 7000
+F 0 "U232" H 7850 7317 50  0000 C CNN
+F 1 "74HC04" H 7850 7226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7850 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7850 7000 50  0001 C CNN
+	4    7850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U233
+U 1 1 5E45C2A8
+P 7600 6600
+F 0 "U233" H 7600 6917 50  0000 C CNN
+F 1 "74HC04" H 7600 6826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7600 6600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7600 6600 50  0001 C CNN
+	1    7600 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
