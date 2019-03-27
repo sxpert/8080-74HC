@@ -48,10 +48,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5100 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D89
+L Device:LED_Small_ALT L253
 U 1 1 5E3CD960
 P 2950 6100
-F 0 "D89" V 2950 6032 50  0000 R CNN
+F 0 "L253" V 2950 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 2905 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 2950 6100 50  0001 C CNN
 F 3 "~" V 2950 6100 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "~" V 2950 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D90
+L Device:LED_Small_ALT L252
 U 1 1 5E3D2330
 P 3300 6100
-F 0 "D90" V 3300 6032 50  0000 R CNN
+F 0 "L252" V 3300 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 3255 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 3300 6100 50  0001 C CNN
 F 3 "~" V 3300 6100 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "~" V 3300 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D92
+L Device:LED_Small_ALT L251
 U 1 1 5E3D687F
 P 3650 6100
-F 0 "D92" V 3650 6032 50  0000 R CNN
+F 0 "L251" V 3650 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 3605 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 3650 6100 50  0001 C CNN
 F 3 "~" V 3650 6100 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "~" V 3650 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D94
+L Device:LED_Small_ALT L250
 U 1 1 5E3D8E9F
 P 4000 6100
-F 0 "D94" V 4000 6032 50  0000 R CNN
+F 0 "L250" V 4000 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 3955 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4000 6100 50  0001 C CNN
 F 3 "~" V 4000 6100 50  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "~" V 4000 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D96
+L Device:LED_Small_ALT L249
 U 1 1 5E3DB703
 P 4350 6100
-F 0 "D96" V 4350 6032 50  0000 R CNN
+F 0 "L249" V 4350 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 4305 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4350 6100 50  0001 C CNN
 F 3 "~" V 4350 6100 50  0001 C CNN
@@ -103,10 +103,10 @@ F 3 "~" V 4350 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D98
+L Device:LED_Small_ALT L248
 U 1 1 5E3DB709
 P 4700 6100
-F 0 "D98" V 4700 6032 50  0000 R CNN
+F 0 "L248" V 4700 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 4655 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4700 6100 50  0001 C CNN
 F 3 "~" V 4700 6100 50  0001 C CNN
@@ -114,10 +114,10 @@ F 3 "~" V 4700 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D100
+L Device:LED_Small_ALT L247
 U 1 1 5E3DB70F
 P 5050 6100
-F 0 "D100" V 5050 6032 50  0000 R CNN
+F 0 "L247" V 5050 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 5005 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5050 6100 50  0001 C CNN
 F 3 "~" V 5050 6100 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "~" V 5050 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small_ALT D102
+L Device:LED_Small_ALT L246
 U 1 1 5E3DB715
 P 5400 6100
-F 0 "D102" V 5400 6032 50  0000 R CNN
+F 0 "L246" V 5400 6032 50  0000 R CNN
 F 1 "LED_Small_ALT" V 5355 6032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5400 6100 50  0001 C CNN
 F 3 "~" V 5400 6100 50  0001 C CNN
@@ -176,72 +176,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 5400 5400 6000
 $Comp
-L 74xx:74HC04 U4
-U 1 1 5E3F03E5
-P 2550 6200
-F 0 "U4" H 2550 6517 50  0000 C CNN
-F 1 "74HC04" H 2550 6426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2550 6200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2550 6200 50  0001 C CNN
-	1    2550 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U4
-U 2 1 5E3F15C1
-P 2800 6600
-F 0 "U4" H 2800 6917 50  0000 C CNN
-F 1 "74HC04" H 2800 6826 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2800 6600 50  0001 C CNN
-	2    2800 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U17
-U 3 1 5E3F23FF
-P 3050 7000
-F 0 "U17" H 3050 7317 50  0000 C CNN
-F 1 "74HC04" H 3050 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3050 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3050 7000 50  0001 C CNN
-	3    3050 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U17
-U 4 1 5E3F4411
-P 3300 7400
-F 0 "U17" H 3300 7717 50  0000 C CNN
-F 1 "74HC04" H 3300 7626 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3300 7400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3300 7400 50  0001 C CNN
-	4    3300 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U17
-U 5 1 5E3F508C
-P 3550 7800
-F 0 "U17" H 3550 8117 50  0000 C CNN
-F 1 "74HC04" H 3550 8026 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3550 7800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3550 7800 50  0001 C CNN
-	5    3550 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U6
-U 6 1 5E3F5DEB
-P 3800 8200
-F 0 "U6" H 3800 8517 50  0000 C CNN
-F 1 "74HC04" H 3800 8426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 8200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3800 8200 50  0001 C CNN
-	6    3800 8200
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74HC04 U232
 U 7 1 5E3F7301
 P 12750 7000
@@ -251,28 +185,6 @@ F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 7000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 7000 50  0001 C CNN
 	7    12750 7000
 	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HC04 U43
-U 1 1 5E3FA84E
-P 4050 8600
-F 0 "U43" H 4050 8917 50  0000 C CNN
-F 1 "74HC04" H 4050 8826 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4050 8600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4050 8600 50  0001 C CNN
-	1    4050 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HC04 U43
-U 2 1 5E3FB627
-P 4300 9000
-F 0 "U43" H 4300 9317 50  0000 C CNN
-F 1 "74HC04" H 4300 9226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 9000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4300 9000 50  0001 C CNN
-	2    4300 9000
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 9000 1950 9000
@@ -1860,10 +1772,10 @@ o_A14
 Text HLabel 10000 19000 2    50   Output ~ 0
 o_A15
 $Comp
-L 74xx:74HC04 U17
+L 74xx:74HC04 U230
 U 7 1 5F8A37FB
 P 12750 4950
-F 0 "U17" V 13117 4950 50  0000 C CNN
+F 0 "U230" V 13117 4950 50  0000 C CNN
 F 1 "74HC04" V 13026 4950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 4950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 4950 50  0001 C CNN
@@ -1893,10 +1805,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 63
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74HC04 U4
+L 74xx:74HC04 U229
 U 7 1 5F8D62D1
 P 12750 4300
-F 0 "U4" V 13117 4300 50  0000 C CNN
+F 0 "U229" V 13117 4300 50  0000 C CNN
 F 1 "74HC04" V 13026 4300 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 12750 4300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 12750 4300 50  0001 C CNN
@@ -2704,6 +2616,94 @@ F 1 "74HC04" H 7600 6826 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 7600 6600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 7600 6600 50  0001 C CNN
 	1    7600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U229
+U 2 1 5E3FB627
+P 4300 9000
+F 0 "U229" H 4300 9317 50  0000 C CNN
+F 1 "74HC04" H 4300 9226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 9000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4300 9000 50  0001 C CNN
+	2    4300 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U229
+U 1 1 5E3FA84E
+P 4050 8600
+F 0 "U229" H 4050 8917 50  0000 C CNN
+F 1 "74HC04" H 4050 8826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4050 8600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4050 8600 50  0001 C CNN
+	1    4050 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 1 1 5E3F5DEB
+P 3800 8200
+F 0 "U230" H 3800 8517 50  0000 C CNN
+F 1 "74HC04" H 3800 8426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 8200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3800 8200 50  0001 C CNN
+	1    3800 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 6 1 5E3F508C
+P 3550 7800
+F 0 "U230" H 3550 8117 50  0000 C CNN
+F 1 "74HC04" H 3550 8026 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3550 7800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3550 7800 50  0001 C CNN
+	6    3550 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 2 1 5E3F4411
+P 3300 7400
+F 0 "U230" H 3300 7717 50  0000 C CNN
+F 1 "74HC04" H 3300 7626 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3300 7400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3300 7400 50  0001 C CNN
+	2    3300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 5 1 5E3F23FF
+P 3050 7000
+F 0 "U230" H 3050 7317 50  0000 C CNN
+F 1 "74HC04" H 3050 7226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3050 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3050 7000 50  0001 C CNN
+	5    3050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 3 1 5E3F15C1
+P 2800 6600
+F 0 "U230" H 2800 6917 50  0000 C CNN
+F 1 "74HC04" H 2800 6826 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2800 6600 50  0001 C CNN
+	3    2800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U230
+U 4 1 5E3F03E5
+P 2550 6200
+F 0 "U230" H 2550 6517 50  0000 C CNN
+F 1 "74HC04" H 2550 6426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2550 6200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2550 6200 50  0001 C CNN
+	4    2550 6200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
