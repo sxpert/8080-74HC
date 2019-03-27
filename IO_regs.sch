@@ -1707,38 +1707,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 19000 10000 19000
 Connection ~ 1400 17200
-Text HLabel 10000 17500 2    50   Output ~ 0
-o_A0
-Text HLabel 10000 17600 2    50   Output ~ 0
-o_A1
-Text HLabel 10000 17700 2    50   Output ~ 0
-o_A2
-Text HLabel 10000 17800 2    50   Output ~ 0
-o_A3
-Text HLabel 10000 17900 2    50   Output ~ 0
-o_A4
-Text HLabel 10000 18000 2    50   Output ~ 0
-o_A5
-Text HLabel 10000 18100 2    50   Output ~ 0
-o_A6
-Text HLabel 10000 18200 2    50   Output ~ 0
-o_A7
-Text HLabel 10000 18300 2    50   Output ~ 0
-o_A8
-Text HLabel 10000 18400 2    50   Output ~ 0
-o_A9
-Text HLabel 10000 18500 2    50   Output ~ 0
-o_A10
-Text HLabel 10000 18600 2    50   Output ~ 0
-o_A11
-Text HLabel 10000 18700 2    50   Output ~ 0
-o_A12
-Text HLabel 10000 18800 2    50   Output ~ 0
-o_A13
-Text HLabel 10000 18900 2    50   Output ~ 0
-o_A14
-Text HLabel 10000 19000 2    50   Output ~ 0
-o_A15
 $Comp
 L 74xx:74HC04 U230
 U 7 1 5F8A37FB
@@ -2724,4 +2692,36 @@ Text GLabel 1050 12700 0    50   Input ~ 0
 A15
 Wire Wire Line
 	12050 1950 12050 3000
+Text GLabel 10000 17500 2    50   Output ~ 0
+o_A0
+Text GLabel 10000 17600 2    50   Output ~ 0
+o_A1
+Text GLabel 10000 17700 2    50   Output ~ 0
+o_A2
+Text GLabel 10000 17800 2    50   Output ~ 0
+o_A3
+Text GLabel 10000 17900 2    50   Output ~ 0
+o_A4
+Text GLabel 10000 18000 2    50   Output ~ 0
+o_A5
+Text GLabel 10000 18100 2    50   Output ~ 0
+o_A6
+Text GLabel 10000 18200 2    50   Output ~ 0
+o_A7
+Text GLabel 10000 18300 2    50   Output ~ 0
+o_A8
+Text GLabel 10000 18400 2    50   Output ~ 0
+o_A9
+Text GLabel 10000 18500 2    50   Output ~ 0
+o_A10
+Text GLabel 10000 18600 2    50   Output ~ 0
+o_A11
+Text GLabel 10000 18700 2    50   Output ~ 0
+o_A12
+Text GLabel 10000 18800 2    50   Output ~ 0
+o_A13
+Text GLabel 10000 18900 2    50   Output ~ 0
+o_A14
+Text GLabel 10000 19000 2    50   Output ~ 0
+o_A15
 $EndSCHEMATC

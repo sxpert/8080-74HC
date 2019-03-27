@@ -77,22 +77,6 @@ F 3 "" H 1400 2900 50  0001 C CNN
 	1    1400 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 1850 0    50   BiDi ~ 0
-iB7
-Text HLabel 1400 1750 0    50   BiDi ~ 0
-iB6
-Text HLabel 1400 1650 0    50   BiDi ~ 0
-iB5
-Text HLabel 1400 1550 0    50   BiDi ~ 0
-iB4
-Text HLabel 1400 1450 0    50   BiDi ~ 0
-iB3
-Text HLabel 1400 1350 0    50   BiDi ~ 0
-iB2
-Text HLabel 1400 1250 0    50   BiDi ~ 0
-iB1
-Text HLabel 1400 1150 0    50   BiDi ~ 0
-iB0
 Text HLabel 1400 4100 0    50   Input ~ 0
 WKHregWR
 $Comp
@@ -373,8 +357,6 @@ F 3 "~" V 7800 4200 50  0001 C CNN
 	1    7800 4200
 	1    0    0    -1  
 $EndComp
-Text HLabel 6650 2900 0    50   Input ~ 0
-WKHLsel
 $Comp
 L 74xx:74HC244 U?
 U 1 1 5E39B5D8
@@ -393,8 +375,6 @@ $EndComp
 Wire Wire Line
 	7900 4900 7900 4800
 Connection ~ 7900 4800
-Text HLabel 7450 4800 0    50   Input ~ 0
-WKHregRD
 Wire Wire Line
 	5700 3200 6650 3200
 Wire Wire Line
@@ -435,8 +415,8 @@ U 1 1 5E39B5F2
 P 3000 7600
 AR Path="/5D8315BB/5E39B5F2" Ref="U?"  Part="1" 
 AR Path="/5E031B2C/5E39B5F2" Ref="U?"  Part="1" 
-AR Path="/5E045D26/5E39B5F2" Ref="U37"  Part="1" 
-F 0 "U37" H 3000 8581 50  0000 C CNN
+AR Path="/5E045D26/5E39B5F2" Ref="U214"  Part="1" 
+F 0 "U214" H 3000 8581 50  0000 C CNN
 F 1 "74HC373" H 3000 8490 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 3000 7600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 3000 7600 50  0001 C CNN
@@ -467,7 +447,7 @@ Wire Wire Line
 	2500 8400 2400 8400
 Connection ~ 2500 8400
 Wire Wire Line
-	1400 8000 2500 8000
+	1400 8000 1650 8000
 $Comp
 L power:VCC #PWR?
 U 1 1 5E39B605
@@ -482,8 +462,6 @@ F 3 "" H 1400 6800 50  0001 C CNN
 	1    1400 6800
 	1    0    0    -1  
 $EndComp
-Text HLabel 1400 8000 0    50   Input ~ 0
-WKLregWR
 $Comp
 L Device:LED_Small_ALT D?
 U 1 1 5E39B60C
@@ -491,8 +469,8 @@ P 3600 7950
 AR Path="/5CAD6F89/5E39B60C" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B60C" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B60C" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B60C" Ref="D70"  Part="1" 
-F 0 "D70" V 3600 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B60C" Ref="L200"  Part="1" 
+F 0 "L200" H 3700 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 3555 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 3600 7950 50  0001 C CNN
 F 3 "~" V 3600 7950 50  0001 C CNN
@@ -506,8 +484,8 @@ P 3900 7950
 AR Path="/5CAD6F89/5E39B612" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B612" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B612" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B612" Ref="D72"  Part="1" 
-F 0 "D72" V 3900 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B612" Ref="L201"  Part="1" 
+F 0 "L201" H 4000 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 3855 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 3900 7950 50  0001 C CNN
 F 3 "~" V 3900 7950 50  0001 C CNN
@@ -521,8 +499,8 @@ P 4200 7950
 AR Path="/5CAD6F89/5E39B618" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B618" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B618" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B618" Ref="D74"  Part="1" 
-F 0 "D74" V 4200 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B618" Ref="L202"  Part="1" 
+F 0 "L202" H 4300 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 4155 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4200 7950 50  0001 C CNN
 F 3 "~" V 4200 7950 50  0001 C CNN
@@ -536,8 +514,8 @@ P 4500 7950
 AR Path="/5CAD6F89/5E39B61E" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B61E" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B61E" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B61E" Ref="D76"  Part="1" 
-F 0 "D76" V 4500 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B61E" Ref="L203"  Part="1" 
+F 0 "L203" H 4600 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 4455 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4500 7950 50  0001 C CNN
 F 3 "~" V 4500 7950 50  0001 C CNN
@@ -551,8 +529,8 @@ P 4800 7950
 AR Path="/5CAD6F89/5E39B624" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B624" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B624" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B624" Ref="D78"  Part="1" 
-F 0 "D78" V 4800 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B624" Ref="L204"  Part="1" 
+F 0 "L204" H 4900 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 4755 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 4800 7950 50  0001 C CNN
 F 3 "~" V 4800 7950 50  0001 C CNN
@@ -566,8 +544,8 @@ P 5100 7950
 AR Path="/5CAD6F89/5E39B62A" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B62A" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B62A" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B62A" Ref="D80"  Part="1" 
-F 0 "D80" V 5100 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B62A" Ref="L205"  Part="1" 
+F 0 "L205" H 5200 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 5055 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5100 7950 50  0001 C CNN
 F 3 "~" V 5100 7950 50  0001 C CNN
@@ -581,8 +559,8 @@ P 5400 7950
 AR Path="/5CAD6F89/5E39B630" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B630" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B630" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B630" Ref="D82"  Part="1" 
-F 0 "D82" V 5400 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B630" Ref="L206"  Part="1" 
+F 0 "L206" H 5500 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 5355 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5400 7950 50  0001 C CNN
 F 3 "~" V 5400 7950 50  0001 C CNN
@@ -596,8 +574,8 @@ P 5700 7950
 AR Path="/5CAD6F89/5E39B636" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B636" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B636" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B636" Ref="D84"  Part="1" 
-F 0 "D84" V 5700 7882 50  0000 R CNN
+AR Path="/5E045D26/5E39B636" Ref="L207"  Part="1" 
+F 0 "L207" H 5800 7850 50  0000 R CNN
 F 1 "LED_Small_ALT" V 5655 7882 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5700 7950 50  0001 C CNN
 F 3 "~" V 5700 7950 50  0001 C CNN
@@ -611,9 +589,9 @@ P 4700 8400
 AR Path="/5CAD6F89/5E39B63C" Ref="RN?"  Part="1" 
 AR Path="/5D8315BB/5E39B63C" Ref="RN?"  Part="1" 
 AR Path="/5E031B2C/5E39B63C" Ref="RN?"  Part="1" 
-AR Path="/5E045D26/5E39B63C" Ref="RN9"  Part="1" 
-F 0 "RN9" H 4220 8354 50  0000 R CNN
-F 1 "R_Network08" H 4220 8445 50  0000 R CNN
+AR Path="/5E045D26/5E39B63C" Ref="B30"  Part="1" 
+F 0 "B30" H 4220 8354 50  0000 R CNN
+F 1 "2.2K" H 4220 8445 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 5175 8400 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4700 8400 50  0001 C CNN
 	1    4700 8400
@@ -713,8 +691,8 @@ P 8400 7300
 AR Path="/5CAD6F89/5E39B66C" Ref="U?"  Part="1" 
 AR Path="/5D8315BB/5E39B66C" Ref="U?"  Part="1" 
 AR Path="/5E031B2C/5E39B66C" Ref="U?"  Part="1" 
-AR Path="/5E045D26/5E39B66C" Ref="U40"  Part="1" 
-F 0 "U40" H 8400 6319 50  0000 C CNN
+AR Path="/5E045D26/5E39B66C" Ref="U180"  Part="1" 
+F 0 "U180" H 8400 6319 50  0000 C CNN
 F 1 "74HC244" H 8400 6410 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 8400 7300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 8400 7300 50  0001 C CNN
@@ -742,8 +720,8 @@ P 8400 9200
 AR Path="/5CAD6F89/5E39B67E" Ref="U?"  Part="1" 
 AR Path="/5D8315BB/5E39B67E" Ref="U?"  Part="1" 
 AR Path="/5E031B2C/5E39B67E" Ref="U?"  Part="1" 
-AR Path="/5E045D26/5E39B67E" Ref="U41"  Part="1" 
-F 0 "U41" H 8400 8219 50  0000 C CNN
+AR Path="/5E045D26/5E39B67E" Ref="U193"  Part="1" 
+F 0 "U193" H 8400 8219 50  0000 C CNN
 F 1 "74HC244" H 8400 8310 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 8400 9200 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 8400 9200 50  0001 C CNN
@@ -773,8 +751,6 @@ $EndComp
 Connection ~ 7600 8700
 Wire Wire Line
 	7600 8700 7450 8700
-Text HLabel 7450 8700 0    50   Input ~ 0
-WKLregRD
 Wire Wire Line
 	5700 7100 6650 7100
 Wire Wire Line
@@ -1070,22 +1046,6 @@ Wire Wire Line
 	8900 7700 10350 7700
 Wire Wire Line
 	8900 7800 10350 7800
-Text HLabel 10350 7100 2    50   Output ~ 0
-A0
-Text HLabel 10350 7200 2    50   Output ~ 0
-A1
-Text HLabel 10350 7300 2    50   Output ~ 0
-A2
-Text HLabel 10350 7400 2    50   Output ~ 0
-A3
-Text HLabel 10350 7500 2    50   Output ~ 0
-A4
-Text HLabel 10350 7600 2    50   Output ~ 0
-A5
-Text HLabel 10350 7700 2    50   Output ~ 0
-A6
-Text HLabel 10350 7800 2    50   Output ~ 0
-A7
 Text HLabel 10350 3200 2    50   Output ~ 0
 A8
 Text HLabel 10350 3300 2    50   Output ~ 0
@@ -1181,9 +1141,9 @@ P 8050 8100
 AR Path="/5CAD6F89/5E39B76C" Ref="R?"  Part="1" 
 AR Path="/5D8315BB/5E39B76C" Ref="R?"  Part="1" 
 AR Path="/5E031B2C/5E39B76C" Ref="R?"  Part="1" 
-AR Path="/5E045D26/5E39B76C" Ref="R19"  Part="1" 
-F 0 "R19" V 7843 8100 50  0000 C CNN
-F 1 "R" V 7934 8100 50  0000 C CNN
+AR Path="/5E045D26/5E39B76C" Ref="R49"  Part="1" 
+F 0 "R49" V 7950 8100 50  0000 C CNN
+F 1 "1K" V 8150 8100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7980 8100 50  0001 C CNN
 F 3 "~" H 8050 8100 50  0001 C CNN
 	1    8050 8100
@@ -1196,8 +1156,8 @@ P 7800 8100
 AR Path="/5CAD6F89/5E39B772" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B772" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B772" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B772" Ref="D87"  Part="1" 
-F 0 "D87" H 7800 8243 50  0000 C CNN
+AR Path="/5E045D26/5E39B772" Ref="L187"  Part="1" 
+F 0 "L187" H 7800 8243 50  0000 C CNN
 F 1 "LED_Small_ALT" V 7755 8032 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7800 8100 50  0001 C CNN
 F 3 "~" V 7800 8100 50  0001 C CNN
@@ -1213,9 +1173,9 @@ P 8050 10000
 AR Path="/5CAD6F89/5E39B779" Ref="R?"  Part="1" 
 AR Path="/5D8315BB/5E39B779" Ref="R?"  Part="1" 
 AR Path="/5E031B2C/5E39B779" Ref="R?"  Part="1" 
-AR Path="/5E045D26/5E39B779" Ref="R20"  Part="1" 
-F 0 "R20" V 7843 10000 50  0000 C CNN
-F 1 "R" V 7934 10000 50  0000 C CNN
+AR Path="/5E045D26/5E39B779" Ref="R50"  Part="1" 
+F 0 "R50" V 7950 10000 50  0000 C CNN
+F 1 "1K" V 8150 10000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7980 10000 50  0001 C CNN
 F 3 "~" H 8050 10000 50  0001 C CNN
 	1    8050 10000
@@ -1228,8 +1188,8 @@ P 7800 10000
 AR Path="/5CAD6F89/5E39B77F" Ref="D?"  Part="1" 
 AR Path="/5D8315BB/5E39B77F" Ref="D?"  Part="1" 
 AR Path="/5E031B2C/5E39B77F" Ref="D?"  Part="1" 
-AR Path="/5E045D26/5E39B77F" Ref="D88"  Part="1" 
-F 0 "D88" H 7800 10143 50  0000 C CNN
+AR Path="/5E045D26/5E39B77F" Ref="L199"  Part="1" 
+F 0 "L199" H 7800 10143 50  0000 C CNN
 F 1 "LED_Small_ALT" V 7755 9932 50  0001 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7800 10000 50  0001 C CNN
 F 3 "~" V 7800 10000 50  0001 C CNN
@@ -1294,4 +1254,120 @@ F 3 "" H 2500 8400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 4100 2500 4100
+Text GLabel 1400 8000 0    50   Input ~ 0
+WKLregWR
+Text GLabel 1400 1150 0    50   BiDi ~ 0
+iB0
+Text GLabel 1400 1250 0    50   BiDi ~ 0
+iB1
+Text GLabel 1400 1350 0    50   BiDi ~ 0
+iB2
+Text GLabel 1400 1450 0    50   BiDi ~ 0
+iB3
+Text GLabel 1400 1550 0    50   BiDi ~ 0
+iB4
+Text GLabel 1400 1650 0    50   BiDi ~ 0
+iB5
+Text GLabel 1400 1750 0    50   BiDi ~ 0
+iB6
+Text GLabel 1400 1850 0    50   BiDi ~ 0
+iB7
+$Comp
+L Device:R R?
+U 1 1 5CFA2FC3
+P 1650 8350
+AR Path="/5CAD6F89/5CFA2FC3" Ref="R?"  Part="1" 
+AR Path="/5D8315BB/5CFA2FC3" Ref="R?"  Part="1" 
+AR Path="/5E031B2C/5CFA2FC3" Ref="R?"  Part="1" 
+AR Path="/5E045D26/5CFA2FC3" Ref="R66"  Part="1" 
+F 0 "R66" V 1443 8350 50  0000 C CNN
+F 1 "1K" V 1534 8350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1580 8350 50  0001 C CNN
+F 3 "~" H 1650 8350 50  0001 C CNN
+	1    1650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D?
+U 1 1 5CFA2FC9
+P 1650 8100
+AR Path="/5CAD6F89/5CFA2FC9" Ref="D?"  Part="1" 
+AR Path="/5D8315BB/5CFA2FC9" Ref="D?"  Part="1" 
+AR Path="/5E031B2C/5CFA2FC9" Ref="D?"  Part="1" 
+AR Path="/5E045D26/5CFA2FC9" Ref="L208"  Part="1" 
+F 0 "L208" H 1650 8243 50  0000 C CNN
+F 1 "LED_Small_ALT" V 1605 8032 50  0001 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 1650 8100 50  0001 C CNN
+F 3 "~" V 1650 8100 50  0001 C CNN
+	1    1650 8100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1650 8000
+Wire Wire Line
+	1650 8000 2500 8000
+$Comp
+L power:GND #PWR?
+U 1 1 5CFE7E22
+P 1650 8500
+AR Path="/5D8315BB/5CFE7E22" Ref="#PWR?"  Part="1" 
+AR Path="/5E045D26/5CFE7E22" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1650 8250 50  0001 C CNN
+F 1 "GND" H 1655 8327 50  0000 C CNN
+F 2 "" H 1650 8500 50  0001 C CNN
+F 3 "" H 1650 8500 50  0001 C CNN
+	1    1650 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D000D83
+P 6850 2750
+AR Path="/5CAD6F89/5D000D83" Ref="R?"  Part="1" 
+AR Path="/5D8315BB/5D000D83" Ref="R?"  Part="1" 
+AR Path="/5E031B2C/5D000D83" Ref="R?"  Part="1" 
+AR Path="/5E045D26/5D000D83" Ref="R51"  Part="1" 
+F 0 "R51" V 6750 2750 50  0000 C CNN
+F 1 "1K" V 6950 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 2750 50  0001 C CNN
+F 3 "~" H 6850 2750 50  0001 C CNN
+	1    6850 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5D001AE2
+P 6850 2600
+AR Path="/5CAD6F89/5D001AE2" Ref="#PWR?"  Part="1" 
+AR Path="/5D8315BB/5D001AE2" Ref="#PWR?"  Part="1" 
+AR Path="/5E031B2C/5D001AE2" Ref="#PWR?"  Part="1" 
+AR Path="/5E045D26/5D001AE2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 2450 50  0001 C CNN
+F 1 "VCC" H 6867 2773 50  0000 C CNN
+F 2 "" H 6850 2600 50  0001 C CNN
+F 3 "" H 6850 2600 50  0001 C CNN
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 2900 0    50   Input ~ 0
+WKsel
+Text GLabel 7450 4800 0    50   Input ~ 0
+WKHregRD
+Text GLabel 7450 8700 0    50   Input ~ 0
+WKLregRD
+Text GLabel 10350 7100 2    50   Output ~ 0
+A0
+Text GLabel 10350 7200 2    50   Output ~ 0
+A1
+Text GLabel 10350 7300 2    50   Output ~ 0
+A2
+Text GLabel 10350 7400 2    50   Output ~ 0
+A3
+Text GLabel 10350 7500 2    50   Output ~ 0
+A4
+Text GLabel 10350 7600 2    50   Output ~ 0
+A5
+Text GLabel 10350 7700 2    50   Output ~ 0
+A6
+Text GLabel 10350 7800 2    50   Output ~ 0
+A7
 $EndSCHEMATC
