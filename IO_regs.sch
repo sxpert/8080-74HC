@@ -1490,17 +1490,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6700 168
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U227
-U 1 1 5E7F93C9
-P 6950 17200
-F 0 "U227" H 6950 17517 50  0000 C CNN
-F 1 "74HC04" H 6950 17426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6950 17200 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6950 17200 50  0001 C CNN
-	1    6950 17200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0137
 U 1 1 5E7F93E6
 P 8150 10000
@@ -1627,86 +1616,7 @@ Wire Wire Line
 	1500 16800 6400 16800
 Wire Wire Line
 	1400 17200 6650 17200
-Wire Wire Line
-	2900 11200 2900 17500
-Wire Wire Line
-	2900 17500 10000 17500
 Connection ~ 2900 11200
-Wire Wire Line
-	2800 11600 2800 17600
-Connection ~ 2800 11600
-Wire Wire Line
-	2700 12000 2700 17700
-Connection ~ 2700 12000
-Wire Wire Line
-	10000 17600 2800 17600
-Wire Wire Line
-	2700 17700 10000 17700
-Wire Wire Line
-	2600 12400 2600 17800
-Wire Wire Line
-	2600 17800 10000 17800
-Connection ~ 2600 12400
-Wire Wire Line
-	2500 12800 2500 17900
-Wire Wire Line
-	2500 17900 10000 17900
-Connection ~ 2500 12800
-Wire Wire Line
-	2400 13200 2400 18000
-Wire Wire Line
-	2400 18000 10000 18000
-Connection ~ 2400 13200
-Wire Wire Line
-	2300 13600 2300 18100
-Wire Wire Line
-	2300 18100 10000 18100
-Connection ~ 2300 13600
-Wire Wire Line
-	2200 14000 2200 18200
-Wire Wire Line
-	2200 18200 10000 18200
-Connection ~ 2200 14000
-Wire Wire Line
-	2100 14400 2100 18300
-Wire Wire Line
-	2100 18300 10000 18300
-Connection ~ 2100 14400
-Wire Wire Line
-	2000 14800 2000 18400
-Wire Wire Line
-	2000 18400 10000 18400
-Connection ~ 2000 14800
-Wire Wire Line
-	1900 15200 1900 18500
-Wire Wire Line
-	1900 18500 10000 18500
-Connection ~ 1900 15200
-Wire Wire Line
-	1800 15600 1800 18600
-Wire Wire Line
-	1800 18600 10000 18600
-Connection ~ 1800 15600
-Wire Wire Line
-	1700 16000 1700 18700
-Wire Wire Line
-	1700 18700 10000 18700
-Connection ~ 1700 16000
-Wire Wire Line
-	1600 16400 1600 18800
-Wire Wire Line
-	1600 18800 10000 18800
-Connection ~ 1600 16400
-Wire Wire Line
-	1500 16800 1500 18900
-Wire Wire Line
-	1500 18900 10000 18900
-Connection ~ 1500 16800
-Wire Wire Line
-	1400 17200 1400 19000
-Wire Wire Line
-	1400 19000 10000 19000
-Connection ~ 1400 17200
 $Comp
 L 74xx:74HC04 U230
 U 7 1 5F8A37FB
@@ -2692,36 +2602,15 @@ Text GLabel 1050 12700 0    50   Input ~ 0
 A15
 Wire Wire Line
 	12050 1950 12050 3000
-Text GLabel 10000 17500 2    50   Output ~ 0
-o_A0
-Text GLabel 10000 17600 2    50   Output ~ 0
-o_A1
-Text GLabel 10000 17700 2    50   Output ~ 0
-o_A2
-Text GLabel 10000 17800 2    50   Output ~ 0
-o_A3
-Text GLabel 10000 17900 2    50   Output ~ 0
-o_A4
-Text GLabel 10000 18000 2    50   Output ~ 0
-o_A5
-Text GLabel 10000 18100 2    50   Output ~ 0
-o_A6
-Text GLabel 10000 18200 2    50   Output ~ 0
-o_A7
-Text GLabel 10000 18300 2    50   Output ~ 0
-o_A8
-Text GLabel 10000 18400 2    50   Output ~ 0
-o_A9
-Text GLabel 10000 18500 2    50   Output ~ 0
-o_A10
-Text GLabel 10000 18600 2    50   Output ~ 0
-o_A11
-Text GLabel 10000 18700 2    50   Output ~ 0
-o_A12
-Text GLabel 10000 18800 2    50   Output ~ 0
-o_A13
-Text GLabel 10000 18900 2    50   Output ~ 0
-o_A14
-Text GLabel 10000 19000 2    50   Output ~ 0
-o_A15
+$Comp
+L 74xx:74HC04 U227
+U 1 1 5E7F93C9
+P 6950 17200
+F 0 "U227" H 6950 17517 50  0000 C CNN
+F 1 "74HC04" H 6950 17426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6950 17200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6950 17200 50  0001 C CNN
+	1    6950 17200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

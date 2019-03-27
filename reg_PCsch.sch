@@ -847,38 +847,6 @@ Wire Wire Line
 	7750 3450 10000 3450
 Wire Wire Line
 	7750 3350 10000 3350
-Text HLabel 10000 3350 2    50   Output ~ 0
-A0
-Text HLabel 10000 3450 2    50   Output ~ 0
-A1
-Text HLabel 10000 3550 2    50   Output ~ 0
-A2
-Text HLabel 10000 3650 2    50   Output ~ 0
-A3
-Text HLabel 10000 3750 2    50   Output ~ 0
-A4
-Text HLabel 10000 3850 2    50   Output ~ 0
-A5
-Text HLabel 10000 3950 2    50   Output ~ 0
-A6
-Text HLabel 10000 4050 2    50   Output ~ 0
-A7
-Text HLabel 10000 4150 2    50   Output ~ 0
-A8
-Text HLabel 10000 4250 2    50   Output ~ 0
-A9
-Text HLabel 10000 4350 2    50   Output ~ 0
-A10
-Text HLabel 10000 4450 2    50   Output ~ 0
-A11
-Text HLabel 10000 4550 2    50   Output ~ 0
-A12
-Text HLabel 10000 4650 2    50   Output ~ 0
-A13
-Text HLabel 10000 4750 2    50   Output ~ 0
-A14
-Text HLabel 10000 4850 2    50   Output ~ 0
-A15
 $Comp
 L power:VCC #PWR0198
 U 1 1 5CAA7982
@@ -1531,4 +1499,36 @@ Text GLabel 1000 3350 0    50   Input ~ 0
 PCCLR
 Text GLabel 1000 7200 0    50   Input ~ 0
 PCHregWR
+Text GLabel 10000 3350 2    50   Output ~ 0
+A0
+Text GLabel 10000 3450 2    50   Output ~ 0
+A1
+Text GLabel 10000 3550 2    50   Output ~ 0
+A2
+Text GLabel 10000 3650 2    50   Output ~ 0
+A3
+Text GLabel 10000 3750 2    50   Output ~ 0
+A4
+Text GLabel 10000 3850 2    50   Output ~ 0
+A5
+Text GLabel 10000 3950 2    50   Output ~ 0
+A6
+Text GLabel 10000 4050 2    50   Output ~ 0
+A7
+Text GLabel 10000 4150 2    50   Output ~ 0
+A8
+Text GLabel 10000 4250 2    50   Output ~ 0
+A9
+Text GLabel 10000 4350 2    50   Output ~ 0
+A10
+Text GLabel 10000 4450 2    50   Output ~ 0
+A11
+Text GLabel 10000 4550 2    50   Output ~ 0
+A12
+Text GLabel 10000 4650 2    50   Output ~ 0
+A13
+Text GLabel 10000 4750 2    50   Output ~ 0
+A14
+Text GLabel 10000 4850 2    50   Output ~ 0
+A15
 $EndSCHEMATC
