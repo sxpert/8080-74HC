@@ -824,8 +824,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 4750 10000 4750
 Wire Wire Line
-	7800 6000 9200 6000
-Wire Wire Line
 	9200 6000 9200 4850
 Wire Wire Line
 	9200 4850 10000 4850
@@ -1531,4 +1529,6 @@ Text GLabel 10000 4750 2    50   Output ~ 0
 A14
 Text GLabel 10000 4850 2    50   Output ~ 0
 A15
+Wire Wire Line
+	7750 6000 9200 6000
 $EndSCHEMATC
