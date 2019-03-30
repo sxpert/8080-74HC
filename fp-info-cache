@@ -1,4 +1,4 @@
-15863892377252696
+15821161804853696
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -202,69 +202,6 @@ battery CR1225 coin cell
 0
 0
 0
-Battery
-Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
-Panasonic CR-1025/VSK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1025 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
-Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1220 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
-Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-1632 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
-Panasonic CR-2025/V1AK battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2025 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
-Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2032 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
-Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2354/VCN coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
-Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2450 coin cell
-0
-2
-2
-Battery
-Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
-Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-2477 coin cell vertical
-0
-2
-2
-Battery
-Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
-Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.pdf
-battery CR-3032 coin cell vertical
-0
-2
-2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -39809,13 +39746,6 @@ USB-A
 6
 5
 Connector_USB
-USB_A_Molex_105057_Vertical
-https://www.molex.com/pdm_docs/sd/1050570001_sd.pdf
-USB A Vertical
-0
-7
-5
-Connector_USB
 USB_A_Wuerth_61400826021_Horizontal_Stacked
 Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
 Wuerth stacked USB_A
@@ -39940,6 +39870,20 @@ Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.m
 Micro B USB SMD
 0
 11
+6
+Connector_USB
+USB_Micro-B_Tensility_54-00023_Vertical
+http://www.tensility.com/pdffiles/54-00023.pdf
+usb mini receptacle vertical
+0
+7
+6
+Connector_USB
+USB_Micro-B_Tensility_54-00023_Vertical_CircularHoles
+http://www.tensility.com/pdffiles/54-00023.pdf
+usb mini receptacle vertical
+0
+7
 6
 Connector_USB
 USB_Micro-B_Wuerth_614105150721_Vertical
@@ -40489,8 +40433,8 @@ ACDC-Converter 3W
 14
 Converter_ACDC
 Converter_ACDC_MeanWell_IRM-03-xx_THT
-ACDC-Converter, 3W, Meanwell, IRM-03, THT, https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF
-ACDC-Converter 3W THT
+ACDC-Converter, 2W, Meanwell, IRM-02, THT, https://www.meanwell.co.uk/media/productPDF/IRM-02-spec.pdf
+ACDC-Converter 2W THT
 0
 5
 5
@@ -48357,14 +48301,14 @@ LED PLCC-2 SMD
 2
 LED_SMD
 LED_PLCC_2835
-https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
+http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
 LED
 0
 2
 2
 LED_SMD
 LED_PLCC_2835_Handsoldering
-https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf
+http://www.everlight.com/file/ProductFile/67-21S-KK2C-H4040QAR32835Z15-2T.pdf
 LED
 0
 2
@@ -51394,20 +51338,6 @@ LFCSP NoLead
 26
 17
 Package_CSP
-LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm
-LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-21
-17
-Package_CSP
-LFCSP-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias
-LFCSP, 16 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-26
-17
-Package_CSP
 LFCSP-16-1EP_3x3mm_P0.5mm_EP1.854x1.854mm
 16-Lead Lead Frame Chip Scale Package, 3x3mm, 0.5mm pitch, 1.854mm thermal pad (CP-16-22, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_16_22.pdf)
 LFCSP 16 0.5
@@ -51463,20 +51393,6 @@ LFCSP 0.5
 0
 37
 33
-Package_CSP
-LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm
-LFCSP, 64 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-69
-65
-Package_CSP
-LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm_ThermalVias
-LFCSP, 64 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_64_7.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-LFCSP NoLead
-0
-86
-65
 Package_CSP
 LFCSP-72-1EP_10x10mm_P0.5mm_EP5.3x5.3mm
 LFCSP, 72 Pin (http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
@@ -52087,13 +52003,6 @@ DFN 0.5
 13
 11
 Package_DFN_QFN
-DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
-DFN, 10 Pin (https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-DFN NoLead
-0
-15
-11
-Package_DFN_QFN
 DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm
 10-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)
 DFN 0.5
@@ -52549,20 +52458,6 @@ QFN DFN_QFN
 26
 17
 Package_DFN_QFN
-QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm
-QFN, 16 Pin (https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-21
-17
-Package_DFN_QFN
-QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm_ThermalVias
-QFN, 16 Pin (https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-26
-17
-Package_DFN_QFN
 QFN-16-1EP_4x4mm_P0.5mm_EP2.45x2.45mm
 QFN, 16 Pin (https://www.renesas.com/eu/en/www/doc/datasheet/isl8117.pdf#page=22), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -52713,20 +52608,6 @@ Package_DFN_QFN
 QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
 QFN, 20 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=164), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
-0
-30
-21
-Package_DFN_QFN
-QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm
-QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-25
-21
-Package_DFN_QFN
-QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias
-QFN, 20 Pin (https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
 0
 30
 21
@@ -57009,17 +56890,10 @@ QFP 0.65
 80
 Package_QFP
 TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm
-TQFP, 100 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_100_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TQFP QFP
+100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint with Exposed Pad [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
 0
 117
-101
-Package_QFP
-TQFP-100-1EP_14x14mm_P0.5mm_EP5x5mm_ThermalVias
-TQFP, 100 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfp_edsv/sv_100_4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TQFP QFP
-0
-143
 101
 Package_QFP
 TQFP-100_12x12mm_P0.4mm
@@ -57933,29 +57807,22 @@ SOIC 1.27
 7
 Package_SO
 SOIC-8_3.9x4.9mm_P1.27mm
-SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
+SOIC 1.27
 0
 8
 8
 Package_SO
-SOIC-8_5.23x5.23mm_P1.27mm
-SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-8
-8
-Package_SO
-SOIC-14W_7.5x9mm_P1.27mm
-SOIC, 14 Pin (JEDEC MS-013AF, https://www.analog.com/media/en/package-pcb-resources/package/54614177245586rw_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+SOIC-14W_7.5x9.0mm_P1.27mm
+14-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body (http://www.ti.com/lit/ds/symlink/lm1877.pdf)
+SOIC 1.27
 0
 14
 14
 Package_SO
 SOIC-14_3.9x8.7mm_P1.27mm
-SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+14-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 14
 14
@@ -57975,22 +57842,22 @@ SOIC 1.27
 16
 Package_SO
 SOIC-16W_7.5x10.3mm_P1.27mm
-SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 16
 16
 Package_SO
 SOIC-16W_7.5x12.8mm_P1.27mm
-SOIC, 16 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ri_soic_ic/ri_16_1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm x 12.8 mm Body (http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF)
+SOIC 1.27
 0
 16
 16
 Package_SO
 SOIC-16_3.9x9.9mm_P1.27mm
-SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 16
 16
@@ -58003,36 +57870,36 @@ SOIC SO
 16
 Package_SO
 SOIC-18W_7.5x11.6mm_P1.27mm
-SOIC, 18 Pin (JEDEC MS-013AB, https://www.analog.com/media/en/package-pcb-resources/package/33254132129439rw_18.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+18-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 18
 18
 Package_SO
 SOIC-20W_7.5x12.8mm_P1.27mm
-SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 20
 20
 Package_SO
 SOIC-24W_7.5x15.4mm_P1.27mm
-SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+24-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 24
 24
 Package_SO
 SOIC-28W_7.5x17.9mm_P1.27mm
-SOIC, 28 Pin (JEDEC MS-013AE, https://www.analog.com/media/en/package-pcb-resources/package/35833120341221rw_28.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
 0
 28
 28
 Package_SO
 SOIC-28W_7.5x18.7mm_P1.27mm
-SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+28-Lead Plastic Small Outline (SO) - Wide, 7.50 mm X 18.7 mm Body [SOIC] (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf)
+SOIC 1.27
 0
 28
 28
@@ -58302,13 +58169,6 @@ SSOP 0.635
 0
 56
 56
-Package_SO
-STC_SOP-16_3.9x9.9mm_P1.27mm
-STC  SOP, 16 Pin (https://www.stcmicro.com/datasheet/STC15F2K60S2-en.pdf#page=156), generated with kicad-footprint-generator ipc_gullwing_generator.py
-STC SOP SO
-0
-16
-16
 Package_SO
 ST_MultiPowerSO-30
 MultiPowerSO-30 3EP 16.0x17.2mm Pitch 1mm (http://www.st.com/resource/en/datasheet/vnh2sp30-e.pdf)
