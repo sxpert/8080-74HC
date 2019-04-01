@@ -200,17 +200,17 @@ $EndComp
 $Comp
 L Device:R_Network08 RN?
 U 1 1 5E39B58B
-P 4700 4500
+P 4600 4500
 AR Path="/5CAD6F89/5E39B58B" Ref="RN?"  Part="1" 
 AR Path="/5D8315BB/5E39B58B" Ref="RN?"  Part="1" 
 AR Path="/5E031B2C/5E39B58B" Ref="RN?"  Part="1" 
 AR Path="/5E045D26/5E39B58B" Ref="B29"  Part="1" 
-F 0 "B29" H 4220 4454 50  0000 R CNN
-F 1 "2.2K" H 4220 4545 50  0000 R CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 5175 4500 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4700 4500 50  0001 C CNN
-	1    4700 4500
-	1    0    0    1   
+F 0 "B29" H 4120 4454 50  0000 R CNN
+F 1 "2.2K" H 4120 4545 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 5075 4500 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 4500 50  0001 C CNN
+	1    4600 4500
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4900 4250 4900 4300
@@ -287,16 +287,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5E39B5B5
-P 4300 4700
+P 5000 4700
 AR Path="/5CAD6F89/5E39B5B5" Ref="#PWR?"  Part="1" 
 AR Path="/5D8315BB/5E39B5B5" Ref="#PWR?"  Part="1" 
 AR Path="/5E031B2C/5E39B5B5" Ref="#PWR?"  Part="1" 
 AR Path="/5E045D26/5E39B5B5" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 4300 4450 50  0001 C CNN
-F 1 "GND" H 4305 4527 50  0000 C CNN
-F 2 "" H 4300 4700 50  0001 C CNN
-F 3 "" H 4300 4700 50  0001 C CNN
-	1    4300 4700
+F 0 "#PWR0121" H 5000 4450 50  0001 C CNN
+F 1 "GND" H 5005 4527 50  0000 C CNN
+F 2 "" H 5000 4700 50  0001 C CNN
+F 3 "" H 5000 4700 50  0001 C CNN
+	1    5000 4700
 	1    0    0    -1  
 $EndComp
 $Comp
